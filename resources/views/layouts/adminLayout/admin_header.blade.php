@@ -1,4 +1,9 @@
-
+<!--Header-part-->
+<div id="header">
+    <img src="{{asset('images/avatar5.png')}}" style="width: 50px; height:50px; margin-top: 5px " class="img-circle" alt="User Image">
+    <span class="text" style="color: white;">{{ Auth::user()->name }}</span>
+</div>
+<!--close-Header-part-->
 <!--top-Header-menu-->
 <div id="user-nav" class="navbar navbar-inverse">
     <ul class="nav">

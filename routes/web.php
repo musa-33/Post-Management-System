@@ -25,5 +25,8 @@ Route::post("/admin", 'AdminController@login');
 
 Route::group(['middleware' => ['auth']], function (){
     Route::get('admin/dashboard', 'AdminController@dashboard');
+    Route:: get('/logout', 'AdminController@logout');
+    Route:: get('/admin/add-editor', 'AdminController@addEditor');
+    Route:: post('/save-editor', 'AdminController@saveEditor');
 });
 
