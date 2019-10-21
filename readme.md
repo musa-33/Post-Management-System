@@ -1,5 +1,6 @@
-#Post Management System 
+#Post Management System
 
+-------------------------------------------------
 It's a Laravel Multi-user Post Management System Project for Assessment.<br>
 
 <b>Four Types of User</b> <br>
